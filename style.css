@@ -1,0 +1,54 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 381;
+  font-style: normal;
+  font-variation-settings: "wdth" 93.3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: #e3e3e3;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.box {
+  border: 1px solid black;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5em;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 8px 8px;
+  margin: 2em 1em;
+  font-size: medium;
+}
+
+button {
+  padding: 10px 10px;
+  font-size: medium;
+}
